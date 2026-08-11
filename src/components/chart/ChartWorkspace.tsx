@@ -43,7 +43,7 @@ export function ChartWorkspace({ asset }: ChartWorkspaceProps) {
   const positive = asset.changePercent >= 0;
 
   return (
-    <section className="flex min-h-0 flex-col border border-hairline bg-surface">
+    <section className="flex min-h-0 min-w-0 flex-col overflow-hidden border border-hairline bg-surface">
       <header className="flex h-9 shrink-0 items-center justify-between gap-3 border-b border-hairline px-3">
         <div className="flex items-baseline gap-3">
           <span className="text-[13px] font-semibold tracking-tight">{asset.symbol}</span>

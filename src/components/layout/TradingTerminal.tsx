@@ -108,7 +108,7 @@ export function TradingTerminal() {
         <div className="grid min-h-0 flex-1 grid-cols-[220px_minmax(0,1fr)_262px] gap-px bg-hairline xl:grid-cols-[248px_minmax(0,1fr)_286px]">
           <MarketWatch searchRef={searchRef} />
 
-          <div className="grid min-h-0 grid-rows-[minmax(0,1.55fr)_minmax(0,1fr)] gap-px">
+          <div className="grid min-h-0 min-w-0 grid-rows-[minmax(0,1.55fr)_minmax(0,1fr)] gap-px overflow-hidden">
             <ChartWorkspace asset={asset} />
 
             <section className="flex min-h-0 flex-col border border-hairline bg-surface">
