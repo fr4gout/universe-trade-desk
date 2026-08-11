@@ -331,7 +331,7 @@ export function PriceChart({
   }, [assetId, precision, candleStyle, showGrid, visibleCandles]);
 
   return (
-    <div ref={wrapRef} className="relative h-full w-full">
+    <div ref={wrapRef} className="absolute inset-0 overflow-hidden">
       <canvas ref={canvasRef} className="block h-full w-full" />
     </div>
   );
